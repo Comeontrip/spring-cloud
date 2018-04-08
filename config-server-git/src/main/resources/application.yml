@@ -1,8 +1,10 @@
-spring
+spring:
   application:
-    name:config-server
+    name: config-server
   cloud:
     config:
       server:
         git:
-          url:https://github.com/Comeontrip/spring-cloud/config-repo/
+          uri: https://github.com/Comeontrip/spring-cloud/tree/master/config-repo
+server:
+  port: 9201
