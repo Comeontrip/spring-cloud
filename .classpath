@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="consul-client/src/main/java"/>
+	<classpathentry kind="src" path="consul-client/src/test/java"/>
+	<classpathentry kind="src" path="eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="eureka-consumer-feign/src/main/java"/>
+	<classpathentry kind="src" path="eureka-consumer-feign/src/test/java"/>
+	<classpathentry kind="src" path="eureka-consumer-ribbon/src/main/java"/>
+	<classpathentry kind="src" path="eureka-consumer-ribbon/src/test/java"/>
+	<classpathentry kind="src" path="eureka-consumer/src/main/java"/>
+	<classpathentry kind="src" path="eureka-consumer/src/test/java"/>
+	<classpathentry kind="src" path="eureka-sever/src/main/java"/>
+	<classpathentry kind="src" path="eureka-sever/src/test/java"/>
+	<classpathentry kind="lib" path="consul-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="eureka-consumer-feign/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="eureka-consumer-ribbon/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="eureka-consumer/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="eureka-sever/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="eureka-sever/target/discovery-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="consul-client/target/classes"/>
+</classpath>

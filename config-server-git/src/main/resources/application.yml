@@ -1,0 +1,8 @@
+spring
+  application:
+    name:config-server
+  cloud:
+    config:
+      server:
+        git:
+          url:https://github.com/Comeontrip/spring-cloud/config-repo/
